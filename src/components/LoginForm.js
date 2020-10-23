@@ -70,7 +70,7 @@ class LoginForm extends Component {
 
     render() {
         return (
-            <div className="loginForms">
+            <div className="loginForm">
                 Log In
                 <InputFiled
                     type='text'
