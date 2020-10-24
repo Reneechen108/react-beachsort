@@ -34,6 +34,9 @@ export default class Navbar extends Component {
                             <Link to="/login">Login</Link>
                         </li>
                         <li>
+                            <Link to="/agentfinder">Agent Finder</Link>
+                        </li>
+                        <li>
                             <Link to="/other">Other</Link>
                         </li>
                     </ul>

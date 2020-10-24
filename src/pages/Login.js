@@ -4,6 +4,7 @@ import UserStore from '../stores/UserStore';
 import LoginForm from '../components/LoginForm'
 import SubmitButton from '../components/SubmitButton';
 import Loading from '../components/loading';
+import AccountNav from '../components/AccountNav'
 
 class Login extends Component {
     async componentDidMount() {
@@ -70,6 +71,7 @@ class Login extends Component {
         return (
             <div className="login">
                 <div className="container">
+                    <AccountNav />
                     <LoginForm/>
                 </div>
             </div>

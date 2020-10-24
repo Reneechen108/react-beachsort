@@ -1,10 +1,8 @@
-import React, { Component } from 'react'
-import InputFile from './InputField';
+import React, { Component } from 'react';
 import SubmitButton from './SubmitButton';
 import UserStore from '../stores/UserStore';
-import { withTheme } from 'styled-components';
 import InputFiled from './InputField';
-
+import AccountNav from '../components/AccountNav'
 class LoginForm extends Component {
     constructor(props){
         super(props);
@@ -71,7 +69,6 @@ class LoginForm extends Component {
     render() {
         return (
             <div className="loginForm">
-                Log In
                 <InputFiled
                     type='text'
                     placeholder='Username'
